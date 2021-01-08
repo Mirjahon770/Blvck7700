@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.ali{
+    align-items: center;
+}
+.sbt{
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    display: inline-block;    
+}
+
+li{
+list-style: none;
+}
+
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+  
+    margin-top: 50px;
+   
+}
+.logoss{
+    border: 10px solid gray;
+    font-size: 100px;
+    color: gray;
+}
+.hsss{
+    font-size: 28px;
+      color: gray;
+}
+.hs{
+    margin-top: 15px;
+}
+
+.header__navs ul{
+    display: flex;
+    margin-top: 40px;   
+}
+
+.header__navs ul li{
+    padding: 0 10px;
+}
+
+.header__navs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.header__navs ul li a{
+    padding: 10px 10px;
+    color: gray;
+}
+
+.header__navs ul li a:hover{
+    color: rgba(0, 0, 255, 0.664);
+    border-bottom: 2px solid  rgba(0, 0, 255, 0.664) ;
+}
+
+.sec__img img{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.block__left{
+    margin-top: 35px;
+    width: 730px;
+    background-color: #f0f0f0;
+    padding: 60px 100px  95px 40px ;
+    font-size: 19px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: rgba(0, 0, 255, 0.664);
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.row{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.block__right{
+    width: 300px;
+    padding: 50px 45px 185px 40px;
+    background-color: #f0f0f0;
+    margin-top: 35px;
+    margin-left: 30px;
+    line-height: 1.5em;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.number{
+    margin: 50px 0 55px;
+}
+
+.footer__text{
+    padding: 10px 40px;
+    background-color: #f0f0f0;
+}
+
+.ppp{
+    color: gray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+   font-weight: bold;
+   margin-left: 165px;
+}
+
+.hss{
+    margin-left: 20px;
+}
